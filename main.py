@@ -1,6 +1,6 @@
 import pexpect
 import time 
-import colors
+from colors import *
 
 bulb = '44:A6:E5:1E:0D:F7'
 
