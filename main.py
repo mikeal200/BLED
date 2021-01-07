@@ -24,7 +24,7 @@ gatt.expect('Connection successful')
 while True :
     for i in nums :
         gatt.sendline('char-write-cmd 0x0025 ' + i)
-        time.sleep(.5)
+        time.sleep(.01)
 
 
 
